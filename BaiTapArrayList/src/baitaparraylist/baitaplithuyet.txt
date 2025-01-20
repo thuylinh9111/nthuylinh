@@ -1,0 +1,27 @@
+•	ArrayList : 
+	Là một gói trong java thuộc gói  java.util, được sử dụng để lưu trữ các phần tử như một danh sách động.
+	Dung lượng của ArrayList có thể thay  đổi linh hoạt khi thêm hoặc xóa bớt phần tử.
+	Không cần khai báo kích thước cố định từ đầu.
+	Giống nhau :
+	Cả hai đều dung để lưu trữ các phần tử cùng kiểu.
+	Có thể truy cập phần tử thông qua chỉ số ( index ).
+	Khác nhau : 
+
+Đặc điểm	Array	ArrayList
+Kích thước	Cố định,không thể thay đổi	Linh hoạt, tự động điều chỉnh
+Thuộc tính	Là cấu trúc dữ liệu cơ bản	Là một lớp (class ) trong java
+Hiệu năng	Nhanh hơn	Chậm hơn
+Hỗ trợ Generics	Không	Có
+Các phương thức	Không có sẵn các phương thức	Có nhiều phương thức hỗ trợ
+
+
+•	Các Method phổ biến khi thao tác với ArrayList : 
+	add(E e): Thêm một phần tử vào danh sách.
+	add(int index, E e): Thêm phần tử tại vị trí chỉ định.
+	get(int index): Lấy phần tử tại chỉ số chỉ định.
+	set(int index, E e): Cập nhật giá trị tại chỉ số chỉ định.
+	remove(int index): Xóa phần tử tại chỉ số chỉ định.
+	contains(Object o): Kiểm tra sự tồn tại của phần tử trong danh sách.
+	size(): Trả về số lượng phần tử trong danh sách.
+	clear(): Xóa toàn bộ các phần tử.
+	isEmpty(): Kiểm tra xem danh sách có rỗng không.
